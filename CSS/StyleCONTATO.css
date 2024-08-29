@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+nav{
+	float: right;
+}
+
+nav ul{
+	list-style: none; /*remover bolinhas*/
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none; /*remover sublinhado*/
+	color: white;
+	padding: 15px 15px 10px 15px;
+}
+
+nav ul li a:hover{ /*hover (mouse sobre o link)*/
+	color: white;
+	/*text-decoration: underline;*/
+	border-bottom: white 2px solid;
+}
+
+
+.wrapper{ /*Caixa Principal*/
+display: flex; /*para transformar em blocos*/
+flex-direction: row; /*ou colunas*/
+flex-wrap: wrap; /*caixa uma do lado da outra*/
+justify-content: center; /*alinhando os blocos na horizontal dentro do principal*/
+align-items: center; /*alinhando os blocos na vertical*/ 
+width: 100%;
+height: auto;
+background-color: white;
+padding: 0px;
+}
+
+.boxTopoLogo {
+background-color: #1e1d2f;
+width: 30%;
+height: auto
+
+}
+
+.Logo{
+width: 50%;
+height: 41px;
+padding-left: 10%;
+
+}
+
+.boxTopoMenu {
+background-color: #1e1d2f;
+width: 70%;
+height: 25px;
+margin: 0px;
+text-align: center;
+color: aliceblue ;
+padding-bottom: 10px;
+padding-top: 10px;
+font-family: Century Gothic;
+font-size: 15px ;
+}
+
+
+.boxForm{ /*caixa principal do formulario*/
+	width: 100%;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	height: auto; 
+	margin-right: 5%; 
+  
+  
+  }
+  
+  
+  form{ /*caixa para receber os inputs*/
+	background-color: rgb(255, 255, 255);
+	width:45%;/*largura do formulário*/
+	  margin:auto; /*para ficar no centro*/
+	  font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+	padding-left: 10%;
+	  
+  }
+  input, textarea{ /*fundo da caixa de preenchimento de dados*/
+	  font-family:verdana, sans-serif;
+	  font-weight:normal;
+	  font-size:1.2em;
+	  background-color:#f8f3f3;
+	  font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+	  border-color: #ffffff;
+	  padding: 8px;
+	  border-radius: 5px;
+  
+  
+  }
+  
+  .botao{ /*crie uma classe para alterar a cor do botao*/
+	  background-color: #1e1d2f;
+	  color:white;
+	  padding:2%;
+  }
+
+		
+		.boxInfo{
+			background-color: #1e1d2f;
+			width: 30%;
+			height: 300px;
+			padding-left: 1.65%;
+			padding-right: 1.65%;
+			}
+			
+			.info{
+			font-family:Century Gothic;
+			color: #a4a3a5;
+			padding-left: 20%;
+			font-weight: 100;
+			font-size: 30px;
+			padding-top: 10%;
+			
+			}
+			.redes{
+			padding-top: 8%;
+			
+			}
+
+.boxRodape{
+background-color:#343856;
+width: 100%;
+height: 50px;
+margin: 0px; /*coloque margem*/
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 20px;
+color: aliceblue ;
+font-weight: 100;
+}
+

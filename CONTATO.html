@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+
+<link type="text/css" rel="stylesheet" href="CSS/StyleCONTATO.css">
+
+</head>
+
+
+<body>
+
+
+<div class="wrapper">
+
+<div class="boxTopoLogo">
+<img src="IMAGENS/LOGO.png" alt="" class="Logo">
+</div>
+
+<div class="boxTopoMenu">
+<nav>
+<ul>
+<li> <a href="INDEX.html">HOME</a></li>
+<li><a href="quemsomos.html">QUEM SOMOS</a></li>
+<li><a href="alinhamentos.html">ALINHAMENTOS</a></li>
+<li><a href="contato.html">CONTATO</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="boxForm">
+       
+    <div id="conteudo_formulario"> <!--caixa que receberá o formulário-->
+
+      <form method="post" id="fContato" action="mailto:kelly.psouza@sp.senac.br">
+                                      
+          <p>       
+            <input type="text" name="tNome" id="cNome" size="50%"
+             maxlength="20"autofocus required placeholder="Nome" />
+          </p>
+
+          <p>
+            <input type="tel" name="tTel" id="cTel" size="50%" maxlength="14" 
+             placeholder="Telefone EX:(xx)xxxxx-xxxx"  required />
+          </p>
+                    
+          <p>
+          <input type="email" name="tMail" id="cMail" size="50%" maxlength="30" 
+           placeholder="E-mail" required />
+          </p>
+           
+          <!-- type DATE para aparecer calendário   -->
+          <p>
+          Data desejada para consulta: 
+          <input type="date" name="tNasc" id="cNasc" size="50%"/>
+          </p>
+          
+          <!-- textarea para uma caixa maior com mais linhas -->
+          <p>
+          <textarea name="tMsg" id="cMsg" cols="50%" rows="5" 
+          placeholder="Deixe aqui sua mensagem">
+          </textarea>
+          </p> 
+             
+           <!-- botoes -->
+          <p>
+             <input type="submit" name="Enviar" class="botao" />  
+          </p>
+              
+          </form>
+      </div>
+
+  </div>
+
+<div class="boxInfo">
+    <h1 class="info">A odontoClinic</h1>
+    <h2 class="info">Nossos Tratamentos</h2>
+
+</div>
+
+<div class="boxInfo">
+    <h1 class="info">Onde Estamos</h1>
+    <h2 class="info">Harmonização Facial</h2>
+</div>
+
+<div class="boxInfo">
+    <img src="IMAGENS/redes.png" alt="" class="redes">
+    <h1 class="info">Conecte-se</h1>
+</div>
+
+<div class="boxRodape">
+    Todos os direitos reservados - OdontoClinic - 2024
+</div>
+
+    </div>
+    
+</body>
+</html>
